@@ -23,7 +23,7 @@ package day27encapsulationabstraction;
               if you make it "private" child classes cannot access to it cannot override.
             10)"abstract method"s cannot be final because they must be overridden by the child classes
               But final methods cannot be overridden.
-            11)"abstract method"s have "abstract methods", "abstract method"s do not have a body it means "abstract method"s are uncompleted methods.
+            11)"abstract classes"s have "abstract methods", "abstract method"s do not have a body it means "abstract method"s are uncompleted methods.
                So abstract classes have uncompleted parts in them, so abstract classes are uncompleted templates.
                Because of that Java does not let us create objects from abstract classes.
             12)"abstract class" is a class that is why it has constructor but the constructor cannot create an object
